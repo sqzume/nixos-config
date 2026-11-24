@@ -16,12 +16,12 @@
         ./hosts/nixos-vm
         home-manager.nixosModules.home-manager
         {
-	  home-manager = {
-	    useGlobalPkgs = true;
-	    useUserPackages = true;
-	    backupFileExtension = "backup";
-	    users.sqzume = ./home.nix;
-	  };
+          home-manager = {
+            useGlobalPkgs = true;
+            useUserPackages = true;
+            backupFileExtension = "backup";
+            users.sqzume = ./home.nix;
+          };
         }
       ];
     };
