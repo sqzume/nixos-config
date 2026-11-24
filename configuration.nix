@@ -69,6 +69,7 @@
     wget
     kitty
     firefox
+    gh
   ];
 
   fonts.packages = with pkgs; [
