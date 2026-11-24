@@ -11,7 +11,7 @@
         ./configuration.nix
 	./hosts/nixos-vm
       ];
-    ];
-  ];
+    };
+  };
 }
 
