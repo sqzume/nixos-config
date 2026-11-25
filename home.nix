@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
-  imports = [ ./nvim.nix ];
+  imports = [
+    ./nvim.nix
+    ./hyprland.nix
+  ];
 
   home.stateVersion = "26.05";
 
@@ -18,4 +21,3 @@
     };
   };
 }
-
